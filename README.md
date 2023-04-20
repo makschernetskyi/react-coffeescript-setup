@@ -1,0 +1,1 @@
+template for project that uses Coffeescript and react
