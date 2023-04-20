@@ -1,0 +1,30 @@
+{
+  "name": "coffeeReact",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "author": "makschernetskyi",
+  "scripts": {
+    "start": "webpack --progress --watch",
+    "test": "test"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "coffee-loader": "^2.0.0",
+    "source-map-loader": "^2.0.1",
+    "webpack": "^5.30.0"
+  },
+  "dependencies": {
+    "coffeescript": "^2.5.1",
+    "html-webpack-plugin": "^5.3.1",
+    "jsx-loader": "^0.13.2",
+    "path": "^0.12.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack-cli": "^4.6.0"
+  }
+}
